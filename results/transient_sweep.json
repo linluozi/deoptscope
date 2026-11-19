@@ -1,0 +1,83 @@
+{
+  "python": "3.12.3",
+  "sizes": {
+    "100": {
+      "cold_median_ns": 4458.0,
+      "cold_p25_ns": 4438.0,
+      "cold_p75_ns": 4489.0,
+      "cold_rsd": 0.15519280176250708,
+      "delta_median_ns": 80.0,
+      "mismatches": 0,
+      "slowdown": 1.0182731841023298,
+      "warm_median_ns": 4378.0,
+      "warm_p25_ns": 4358.0,
+      "warm_p75_ns": 4398.0,
+      "warm_rsd": 0.5030235938323311
+    },
+    "1600": {
+      "cold_median_ns": 93165.0,
+      "cold_p25_ns": 91963.0,
+      "cold_p75_ns": 98216.5,
+      "cold_rsd": 1.2975387048962215,
+      "delta_median_ns": 1231.5,
+      "mismatches": 0,
+      "slowdown": 1.013395552219811,
+      "warm_median_ns": 91933.5,
+      "warm_p25_ns": 90309.75,
+      "warm_p75_ns": 97274.75,
+      "warm_rsd": 2.8440527810709644
+    },
+    "2": {
+      "cold_median_ns": 381.0,
+      "cold_p25_ns": 371.0,
+      "cold_p75_ns": 390.0,
+      "cold_rsd": 0.9305828248511506,
+      "delta_median_ns": 70.0,
+      "mismatches": 0,
+      "slowdown": 1.22508038585209,
+      "warm_median_ns": 311.0,
+      "warm_p25_ns": 310.0,
+      "warm_p75_ns": 320.0,
+      "warm_rsd": 1.8567426713618265
+    },
+    "20": {
+      "cold_median_ns": 1052.0,
+      "cold_p25_ns": 1032.0,
+      "cold_p75_ns": 1072.0,
+      "cold_rsd": 0.39521774696619333,
+      "delta_median_ns": 90.0,
+      "mismatches": 0,
+      "slowdown": 1.0935550935550935,
+      "warm_median_ns": 962.0,
+      "warm_p25_ns": 952.0,
+      "warm_p75_ns": 981.0,
+      "warm_rsd": 1.0451659072172126
+    },
+    "400": {
+      "cold_median_ns": 19687.0,
+      "cold_p25_ns": 19607.0,
+      "cold_p75_ns": 19817.0,
+      "cold_rsd": 0.10562031563789688,
+      "delta_median_ns": 211.0,
+      "mismatches": 0,
+      "slowdown": 1.0108338467857876,
+      "warm_median_ns": 19476.0,
+      "warm_p25_ns": 19286.0,
+      "warm_p75_ns": 19617.0,
+      "warm_rsd": 0.13314515755750453
+    },
+    "5": {
+      "cold_median_ns": 451.0,
+      "cold_p25_ns": 451.0,
+      "cold_p75_ns": 461.0,
+      "cold_rsd": 0.9557249599536165,
+      "delta_median_ns": 70.0,
+      "mismatches": 0,
+      "slowdown": 1.1837270341207349,
+      "warm_median_ns": 381.0,
+      "warm_p25_ns": 381.0,
+      "warm_p75_ns": 391.0,
+      "warm_rsd": 7.810958188371585
+    }
+  }
+}

@@ -1,0 +1,1413 @@
+{
+  "python": "3.12.3",
+  "results": {
+    "click_invoke": {
+      "code_objects": 140,
+      "generic_sites": [
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 16,
+          "firstlineno": 392,
+          "module": "typing.py",
+          "offset": 36,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "_tp_cache.<locals>.decorator.<locals>.inner",
+          "weighted_calls": 16
+        },
+        {
+          "base": "FOR_ITER",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 144,
+          "opname": "FOR_ITER",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "CALL",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 174,
+          "opname": "CALL",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "CALL",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 218,
+          "opname": "CALL",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 232,
+          "opname": "BINARY_OP",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 268,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 278,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 288,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 306,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 16,
+          "firstlineno": 71,
+          "module": "<frozen posixpath>",
+          "offset": 316,
+          "opname": "LOAD_ATTR",
+          "qualname": "join",
+          "weighted_calls": 16
+        },
+        {
+          "base": "CALL",
+          "calls": 13,
+          "firstlineno": 299,
+          "module": "contextlib.py",
+          "offset": 20,
+          "opname": "CALL",
+          "qualname": "contextmanager.<locals>.helper",
+          "weighted_calls": 13
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 13,
+          "firstlineno": 104,
+          "module": "contextlib.py",
+          "offset": 122,
+          "opname": "LOAD_ATTR",
+          "qualname": "_GeneratorContextManagerBase.__init__",
+          "weighted_calls": 13
+        },
+        {
+          "base": "STORE_ATTR",
+          "calls": 13,
+          "firstlineno": 104,
+          "module": "contextlib.py",
+          "offset": 148,
+          "opname": "STORE_ATTR",
+          "qualname": "_GeneratorContextManagerBase.__init__",
+          "weighted_calls": 13
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 13,
+          "firstlineno": 118,
+          "module": "parser.py",
+          "offset": 34,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "normalize_opt",
+          "weighted_calls": 13
+        },
+        {
+          "base": "CALL",
+          "calls": 13,
+          "firstlineno": 118,
+          "module": "parser.py",
+          "offset": 46,
+          "opname": "CALL",
+          "qualname": "normalize_opt",
+          "weighted_calls": 13
+        },
+        {
+          "base": "UNPACK_SEQUENCE",
+          "calls": 13,
+          "firstlineno": 118,
+          "module": "parser.py",
+          "offset": 54,
+          "opname": "UNPACK_SEQUENCE",
+          "qualname": "normalize_opt",
+          "weighted_calls": 13
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 13,
+          "firstlineno": 118,
+          "module": "parser.py",
+          "offset": 68,
+          "opname": "LOAD_ATTR",
+          "qualname": "normalize_opt",
+          "weighted_calls": 13
+        },
+        {
+          "base": "CALL",
+          "calls": 13,
+          "firstlineno": 118,
+          "module": "parser.py",
+          "offset": 90,
+          "opname": "CALL",
+          "qualname": "normalize_opt",
+          "weighted_calls": 13
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 10,
+          "firstlineno": 132,
+          "module": "contextlib.py",
+          "offset": 60,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "_GeneratorContextManager.__enter__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 10,
+          "firstlineno": 132,
+          "module": "contextlib.py",
+          "offset": 76,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "_GeneratorContextManager.__enter__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "CALL",
+          "calls": 10,
+          "firstlineno": 132,
+          "module": "contextlib.py",
+          "offset": 88,
+          "opname": "CALL",
+          "qualname": "_GeneratorContextManager.__enter__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 52,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "CALL",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 64,
+          "opname": "CALL",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "CALL",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 82,
+          "opname": "CALL",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 96,
+          "opname": "LOAD_ATTR",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 116,
+          "opname": "LOAD_ATTR",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "CALL",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 138,
+          "opname": "CALL",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 150,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "CALL",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 162,
+          "opname": "CALL",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 10,
+          "firstlineno": 141,
+          "module": "contextlib.py",
+          "offset": 176,
+          "opname": "LOAD_ATTR",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "weighted_calls": 10
+        }
+      ],
+      "hot_functions": [
+        {
+          "adaptive": 23,
+          "calls": 16,
+          "firstlineno": 71,
+          "generic": 9,
+          "module": "<frozen posixpath>",
+          "qualname": "join",
+          "quickened_ratio": 0.6086956521739131,
+          "specialized": 14
+        },
+        {
+          "adaptive": 5,
+          "calls": 16,
+          "firstlineno": 16,
+          "generic": 0,
+          "module": "<frozen genericpath>",
+          "qualname": "exists",
+          "quickened_ratio": 1.0,
+          "specialized": 5
+        },
+        {
+          "adaptive": 3,
+          "calls": 16,
+          "firstlineno": 392,
+          "generic": 1,
+          "module": "typing.py",
+          "qualname": "_tp_cache.<locals>.decorator.<locals>.inner",
+          "quickened_ratio": 0.6666666666666666,
+          "specialized": 2
+        },
+        {
+          "adaptive": 3,
+          "calls": 16,
+          "firstlineno": 41,
+          "generic": 0,
+          "module": "<frozen posixpath>",
+          "qualname": "_get_sep",
+          "quickened_ratio": 1.0,
+          "specialized": 3
+        },
+        {
+          "adaptive": 10,
+          "calls": 13,
+          "firstlineno": 104,
+          "generic": 2,
+          "module": "contextlib.py",
+          "qualname": "_GeneratorContextManagerBase.__init__",
+          "quickened_ratio": 0.8,
+          "specialized": 8
+        },
+        {
+          "adaptive": 6,
+          "calls": 13,
+          "firstlineno": 118,
+          "generic": 5,
+          "module": "parser.py",
+          "qualname": "normalize_opt",
+          "quickened_ratio": 0.16666666666666666,
+          "specialized": 1
+        },
+        {
+          "adaptive": 2,
+          "calls": 13,
+          "firstlineno": 299,
+          "generic": 1,
+          "module": "contextlib.py",
+          "qualname": "contextmanager.<locals>.helper",
+          "quickened_ratio": 0.5,
+          "specialized": 1
+        },
+        {
+          "adaptive": 3,
+          "calls": 12,
+          "firstlineno": 1267,
+          "generic": 0,
+          "module": "enum.py",
+          "qualname": "Enum.__hash__",
+          "quickened_ratio": 1.0,
+          "specialized": 3
+        },
+        {
+          "adaptive": 2,
+          "calls": 11,
+          "firstlineno": 76,
+          "generic": 0,
+          "module": "types.py",
+          "qualname": "ParamType.__call__",
+          "quickened_ratio": 1.0,
+          "specialized": 2
+        },
+        {
+          "adaptive": 28,
+          "calls": 10,
+          "firstlineno": 141,
+          "generic": 24,
+          "module": "contextlib.py",
+          "qualname": "_GeneratorContextManager.__exit__",
+          "quickened_ratio": 0.14285714285714285,
+          "specialized": 4
+        },
+        {
+          "adaptive": 6,
+          "calls": 10,
+          "firstlineno": 132,
+          "generic": 3,
+          "module": "contextlib.py",
+          "qualname": "_GeneratorContextManager.__enter__",
+          "quickened_ratio": 0.5,
+          "specialized": 3
+        },
+        {
+          "adaptive": 11,
+          "calls": 9,
+          "firstlineno": 762,
+          "generic": 6,
+          "module": "<frozen os>",
+          "qualname": "_createenviron.<locals>.encode",
+          "quickened_ratio": 0.45454545454545453,
+          "specialized": 5
+        },
+        {
+          "adaptive": 9,
+          "calls": 9,
+          "firstlineno": 680,
+          "generic": 1,
+          "module": "<frozen os>",
+          "qualname": "_Environ.__getitem__",
+          "quickened_ratio": 0.8888888888888888,
+          "specialized": 8
+        },
+        {
+          "adaptive": 2,
+          "calls": 9,
+          "firstlineno": 804,
+          "generic": 0,
+          "module": "<frozen _collections_abc>",
+          "qualname": "Mapping.get",
+          "quickened_ratio": 1.0,
+          "specialized": 2
+        },
+        {
+          "adaptive": 8,
+          "calls": 8,
+          "firstlineno": 95,
+          "generic": 8,
+          "module": "core.py",
+          "qualname": "augment_usage_errors",
+          "quickened_ratio": 0.0,
+          "specialized": 0
+        }
+      ],
+      "profiled_calls": 464,
+      "python": "3.12.3",
+      "quickened_ratio_call_weighted": 0.536278,
+      "quickened_ratio_unique": 0.515337,
+      "slots": {
+        "adaptive": 2119,
+        "fixed": 4970,
+        "fused": 0,
+        "generic": 1027,
+        "specialized": 1092
+      },
+      "workload": "run"
+    },
+    "jinja2_render": {
+      "code_objects": 27,
+      "generic_sites": [
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 800,
+          "firstlineno": 480,
+          "module": "environment.py",
+          "offset": 72,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "Environment.getattr",
+          "weighted_calls": 800
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 800,
+          "firstlineno": 480,
+          "module": "environment.py",
+          "offset": 82,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "Environment.getattr",
+          "weighted_calls": 800
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 800,
+          "firstlineno": 480,
+          "module": "environment.py",
+          "offset": 92,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "Environment.getattr",
+          "weighted_calls": 800
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 800,
+          "firstlineno": 480,
+          "module": "environment.py",
+          "offset": 112,
+          "opname": "LOAD_ATTR",
+          "qualname": "Environment.getattr",
+          "weighted_calls": 800
+        },
+        {
+          "base": "CALL",
+          "calls": 800,
+          "firstlineno": 480,
+          "module": "environment.py",
+          "offset": 138,
+          "opname": "CALL",
+          "qualname": "Environment.getattr",
+          "weighted_calls": 800
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 4,
+          "opname": "LOAD_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 40,
+          "opname": "LOAD_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 62,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "STORE_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 74,
+          "opname": "STORE_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 132,
+          "opname": "LOAD_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "STORE_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 160,
+          "opname": "STORE_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 172,
+          "opname": "LOAD_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "STORE_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 194,
+          "opname": "STORE_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "STORE_ATTR",
+          "calls": 201,
+          "firstlineno": 554,
+          "module": "runtime.py",
+          "offset": 208,
+          "opname": "STORE_ATTR",
+          "qualname": "LoopContext.__next__",
+          "weighted_calls": 201
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 200,
+          "firstlineno": 454,
+          "module": "runtime.py",
+          "offset": 4,
+          "opname": "LOAD_ATTR",
+          "qualname": "LoopContext.index",
+          "weighted_calls": 200
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 200,
+          "firstlineno": 14,
+          "module": "tests.py",
+          "offset": 6,
+          "opname": "BINARY_OP",
+          "qualname": "test_odd",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 200,
+          "firstlineno": 1004,
+          "module": "filters.py",
+          "offset": 10,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "do_format",
+          "weighted_calls": 200
+        },
+        {
+          "base": "CALL",
+          "calls": 200,
+          "firstlineno": 1004,
+          "module": "filters.py",
+          "offset": 22,
+          "opname": "CALL",
+          "qualname": "do_format",
+          "weighted_calls": 200
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 200,
+          "firstlineno": 1004,
+          "module": "filters.py",
+          "offset": 62,
+          "opname": "BINARY_OP",
+          "qualname": "do_format",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 6,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 16,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 28,
+          "opname": "LOAD_ATTR",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "CALL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 50,
+          "opname": "CALL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "CALL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 60,
+          "opname": "CALL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 174,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "CALL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 188,
+          "opname": "CALL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 198,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "CALL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 210,
+          "opname": "CALL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 224,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        },
+        {
+          "base": "CALL",
+          "calls": 200,
+          "firstlineno": 565,
+          "module": "filters.py",
+          "offset": 236,
+          "opname": "CALL",
+          "qualname": "sync_do_join",
+          "weighted_calls": 200
+        }
+      ],
+      "hot_functions": [
+        {
+          "adaptive": 9,
+          "calls": 800,
+          "firstlineno": 480,
+          "generic": 5,
+          "module": "environment.py",
+          "qualname": "Environment.getattr",
+          "quickened_ratio": 0.4444444444444444,
+          "specialized": 4
+        },
+        {
+          "adaptive": 14,
+          "calls": 201,
+          "firstlineno": 554,
+          "generic": 9,
+          "module": "runtime.py",
+          "qualname": "LoopContext.__next__",
+          "quickened_ratio": 0.35714285714285715,
+          "specialized": 5
+        },
+        {
+          "adaptive": 39,
+          "calls": 200,
+          "firstlineno": 565,
+          "generic": 31,
+          "module": "filters.py",
+          "qualname": "sync_do_join",
+          "quickened_ratio": 0.20512820512820512,
+          "specialized": 8
+        },
+        {
+          "adaptive": 7,
+          "calls": 200,
+          "firstlineno": 24,
+          "generic": 0,
+          "module": "async_utils.py",
+          "qualname": "async_variant.<locals>.decorator.<locals>.is_async",
+          "quickened_ratio": 1.0,
+          "specialized": 7
+        },
+        {
+          "adaptive": 5,
+          "calls": 200,
+          "firstlineno": 1004,
+          "generic": 3,
+          "module": "filters.py",
+          "qualname": "do_format",
+          "quickened_ratio": 0.4,
+          "specialized": 2
+        },
+        {
+          "adaptive": 4,
+          "calls": 200,
+          "firstlineno": 212,
+          "generic": 0,
+          "module": "filters.py",
+          "qualname": "do_upper",
+          "quickened_ratio": 1.0,
+          "specialized": 4
+        },
+        {
+          "adaptive": 2,
+          "calls": 200,
+          "firstlineno": 454,
+          "generic": 1,
+          "module": "runtime.py",
+          "qualname": "LoopContext.index",
+          "quickened_ratio": 0.5,
+          "specialized": 1
+        },
+        {
+          "adaptive": 2,
+          "calls": 200,
+          "firstlineno": 14,
+          "generic": 1,
+          "module": "tests.py",
+          "qualname": "test_odd",
+          "quickened_ratio": 0.5,
+          "specialized": 1
+        },
+        {
+          "adaptive": 1,
+          "calls": 200,
+          "firstlineno": 34,
+          "generic": 0,
+          "module": "async_utils.py",
+          "qualname": "async_variant.<locals>.decorator.<locals>.wrapper",
+          "quickened_ratio": 1.0,
+          "specialized": 1
+        },
+        {
+          "adaptive": 0,
+          "calls": 200,
+          "firstlineno": 2154,
+          "generic": 0,
+          "module": "typing.py",
+          "qualname": "cast",
+          "quickened_ratio": null,
+          "specialized": 0
+        },
+        {
+          "adaptive": 6,
+          "calls": 6,
+          "firstlineno": 1009,
+          "generic": 2,
+          "module": "__init__.py",
+          "qualname": "ChainMap.__getitem__",
+          "quickened_ratio": 0.6666666666666666,
+          "specialized": 4
+        },
+        {
+          "adaptive": 11,
+          "calls": 2,
+          "firstlineno": 1023,
+          "generic": 3,
+          "module": "__init__.py",
+          "qualname": "ChainMap.__iter__",
+          "quickened_ratio": 0.7272727272727273,
+          "specialized": 8
+        },
+        {
+          "adaptive": 51,
+          "calls": 1,
+          "firstlineno": 4,
+          "generic": 19,
+          "module": "<template>",
+          "qualname": "root",
+          "quickened_ratio": 0.6274509803921569,
+          "specialized": 32
+        },
+        {
+          "adaptive": 26,
+          "calls": 1,
+          "firstlineno": 1269,
+          "generic": 17,
+          "module": "environment.py",
+          "qualname": "Template.render",
+          "quickened_ratio": 0.34615384615384615,
+          "specialized": 9
+        },
+        {
+          "adaptive": 21,
+          "calls": 1,
+          "firstlineno": 163,
+          "generic": 5,
+          "module": "runtime.py",
+          "qualname": "Context.__init__",
+          "quickened_ratio": 0.7619047619047619,
+          "specialized": 16
+        }
+      ],
+      "profiled_calls": 2624,
+      "python": "3.12.3",
+      "quickened_ratio_call_weighted": 0.411069,
+      "quickened_ratio_unique": 0.537549,
+      "slots": {
+        "adaptive": 253,
+        "fixed": 646,
+        "fused": 0,
+        "generic": 117,
+        "specialized": 136
+      },
+      "workload": "run"
+    },
+    "markdown_parse": {
+      "code_objects": 93,
+      "generic_sites": [
+        {
+          "base": "LOAD_ATTR",
+          "calls": 1029,
+          "firstlineno": 1517,
+          "module": "__init__.py",
+          "offset": 48,
+          "opname": "LOAD_ATTR",
+          "qualname": "Logger.debug",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 1029,
+          "firstlineno": 1517,
+          "module": "__init__.py",
+          "offset": 68,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "Logger.debug",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 1029,
+          "firstlineno": 1790,
+          "module": "__init__.py",
+          "offset": 102,
+          "opname": "LOAD_ATTR",
+          "qualname": "Logger.isEnabledFor",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 1029,
+          "firstlineno": 1790,
+          "module": "__init__.py",
+          "offset": 158,
+          "opname": "LOAD_ATTR",
+          "qualname": "Logger.isEnabledFor",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "STORE_SUBSCR",
+          "calls": 1029,
+          "firstlineno": 1790,
+          "module": "__init__.py",
+          "offset": 180,
+          "opname": "STORE_SUBSCR",
+          "qualname": "Logger.isEnabledFor",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 1029,
+          "firstlineno": 1790,
+          "module": "__init__.py",
+          "offset": 278,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "Logger.isEnabledFor",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "CALL",
+          "calls": 1029,
+          "firstlineno": 1790,
+          "module": "__init__.py",
+          "offset": 288,
+          "opname": "CALL",
+          "qualname": "Logger.isEnabledFor",
+          "weighted_calls": 1029
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 303,
+          "firstlineno": 11,
+          "module": "token.py",
+          "offset": 10,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "convert_attrs",
+          "weighted_calls": 303
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 303,
+          "firstlineno": 11,
+          "module": "token.py",
+          "offset": 22,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "convert_attrs",
+          "weighted_calls": 303
+        },
+        {
+          "base": "CALL",
+          "calls": 303,
+          "firstlineno": 11,
+          "module": "token.py",
+          "offset": 32,
+          "opname": "CALL",
+          "qualname": "convert_attrs",
+          "weighted_calls": 303
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 303,
+          "firstlineno": 11,
+          "module": "token.py",
+          "offset": 42,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "convert_attrs",
+          "weighted_calls": 303
+        },
+        {
+          "base": "CALL",
+          "calls": 303,
+          "firstlineno": 11,
+          "module": "token.py",
+          "offset": 54,
+          "opname": "CALL",
+          "qualname": "convert_attrs",
+          "weighted_calls": 303
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 230,
+          "firstlineno": 39,
+          "module": "text.py",
+          "offset": 84,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "text",
+          "weighted_calls": 230
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 230,
+          "firstlineno": 39,
+          "module": "text.py",
+          "offset": 146,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "text",
+          "weighted_calls": 230
+        },
+        {
+          "base": "CALL",
+          "calls": 163,
+          "firstlineno": 9,
+          "module": "fence.py",
+          "offset": 42,
+          "opname": "CALL",
+          "qualname": "fence",
+          "weighted_calls": 163
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 163,
+          "firstlineno": 9,
+          "module": "fence.py",
+          "offset": 226,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "fence",
+          "weighted_calls": 163
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 163,
+          "firstlineno": 9,
+          "module": "fence.py",
+          "offset": 608,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "fence",
+          "weighted_calls": 163
+        },
+        {
+          "base": "LOAD_GLOBAL",
+          "calls": 163,
+          "firstlineno": 9,
+          "module": "fence.py",
+          "offset": 988,
+          "opname": "LOAD_GLOBAL",
+          "qualname": "fence",
+          "weighted_calls": 163
+        },
+        {
+          "base": "CALL",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 42,
+          "opname": "CALL",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 230,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 328,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "COMPARE_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 388,
+          "opname": "COMPARE_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "LOAD_ATTR",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 400,
+          "opname": "LOAD_ATTR",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_SUBSCR",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 422,
+          "opname": "BINARY_SUBSCR",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 428,
+          "opname": "BINARY_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 434,
+          "opname": "BINARY_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "COMPARE_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 440,
+          "opname": "COMPARE_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 450,
+          "opname": "BINARY_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 460,
+          "opname": "BINARY_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        },
+        {
+          "base": "BINARY_OP",
+          "calls": 162,
+          "firstlineno": 12,
+          "module": "blockquote.py",
+          "offset": 470,
+          "opname": "BINARY_OP",
+          "qualname": "blockquote",
+          "weighted_calls": 162
+        }
+      ],
+      "hot_functions": [
+        {
+          "adaptive": 1,
+          "calls": 7129,
+          "firstlineno": 39,
+          "generic": 0,
+          "module": "ruler.py",
+          "qualname": "StateBase.src",
+          "quickened_ratio": 1.0,
+          "specialized": 1
+        },
+        {
+          "adaptive": 20,
+          "calls": 1029,
+          "firstlineno": 1790,
+          "generic": 5,
+          "module": "__init__.py",
+          "qualname": "Logger.isEnabledFor",
+          "quickened_ratio": 0.75,
+          "specialized": 15
+        },
+        {
+          "adaptive": 5,
+          "calls": 1029,
+          "firstlineno": 1517,
+          "generic": 2,
+          "module": "__init__.py",
+          "qualname": "Logger.debug",
+          "quickened_ratio": 0.6,
+          "specialized": 3
+        },
+        {
+          "adaptive": 6,
+          "calls": 1015,
+          "firstlineno": 257,
+          "generic": 0,
+          "module": "state_block.py",
+          "qualname": "StateBlock.is_code_block",
+          "quickened_ratio": 1.0,
+          "specialized": 6
+        },
+        {
+          "adaptive": 17,
+          "calls": 303,
+          "firstlineno": 2,
+          "generic": 0,
+          "module": "<string>",
+          "qualname": "__create_fn__.<locals>.__init__",
+          "quickened_ratio": 1.0,
+          "specialized": 17
+        },
+        {
+          "adaptive": 5,
+          "calls": 303,
+          "firstlineno": 11,
+          "generic": 5,
+          "module": "token.py",
+          "qualname": "convert_attrs",
+          "quickened_ratio": 0.0,
+          "specialized": 0
+        },
+        {
+          "adaptive": 4,
+          "calls": 303,
+          "firstlineno": 79,
+          "generic": 0,
+          "module": "token.py",
+          "qualname": "Token.__post_init__",
+          "quickened_ratio": 1.0,
+          "specialized": 4
+        },
+        {
+          "adaptive": 0,
+          "calls": 278,
+          "firstlineno": 167,
+          "generic": 0,
+          "module": "utils.py",
+          "qualname": "isStrSpace",
+          "quickened_ratio": null,
+          "specialized": 0
+        },
+        {
+          "adaptive": 19,
+          "calls": 230,
+          "firstlineno": 39,
+          "generic": 2,
+          "module": "text.py",
+          "qualname": "text",
+          "quickened_ratio": 0.8947368421052632,
+          "specialized": 17
+        },
+        {
+          "adaptive": 8,
+          "calls": 226,
+          "firstlineno": 131,
+          "generic": 0,
+          "module": "state_block.py",
+          "qualname": "StateBlock.isEmpty",
+          "quickened_ratio": 1.0,
+          "specialized": 8
+        },
+        {
+          "adaptive": 2,
+          "calls": 199,
+          "firstlineno": 54,
+          "generic": 0,
+          "module": "utils.py",
+          "qualname": "OptionsDict.__getitem__",
+          "quickened_ratio": 1.0,
+          "specialized": 2
+        },
+        {
+          "adaptive": 2,
+          "calls": 169,
+          "firstlineno": 804,
+          "generic": 0,
+          "module": "<frozen _collections_abc>",
+          "qualname": "Mapping.get",
+          "quickened_ratio": 1.0,
+          "specialized": 2
+        },
+        {
+          "adaptive": 64,
+          "calls": 163,
+          "firstlineno": 9,
+          "generic": 4,
+          "module": "fence.py",
+          "qualname": "fence",
+          "quickened_ratio": 0.9375,
+          "specialized": 60
+        },
+        {
+          "adaptive": 255,
+          "calls": 162,
+          "firstlineno": 12,
+          "generic": 97,
+          "module": "blockquote.py",
+          "qualname": "blockquote",
+          "quickened_ratio": 0.6196078431372549,
+          "specialized": 158
+        },
+        {
+          "adaptive": 36,
+          "calls": 160,
+          "firstlineno": 13,
+          "generic": 14,
+          "module": "hr.py",
+          "qualname": "hr",
+          "quickened_ratio": 0.6111111111111112,
+          "specialized": 22
+        }
+      ],
+      "profiled_calls": 15566,
+      "python": "3.12.3",
+      "quickened_ratio_call_weighted": 0.677943,
+      "quickened_ratio_unique": 0.570251,
+      "slots": {
+        "adaptive": 2790,
+        "fixed": 5881,
+        "fused": 0,
+        "generic": 1199,
+        "specialized": 1591
+      },
+      "workload": "run"
+    }
+  },
+  "warmup": 20
+}
