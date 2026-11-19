@@ -48,15 +48,25 @@ The interesting part is *which* hot sites stayed generic. Top rows from
 | markdown-it | `Logger.debug` | 1517 | `LOAD_ATTR` / `LOAD_GLOBAL` | 1,029 each |
 | Click | `join` | 71 | `FOR_ITER` / `CALL` | 16 each |
 
-Two conclusions follow directly from the numbers:
+Coverage turns out **not** to be a warmup curve. `experiments/frequency.py` buckets all
+253 code objects that have adaptive slots (7 without any are excluded):
 
-1. Coverage is **frequency-gated**. The call-weighted score for Jinja2 (0.411) is *lower*
-   than the unique score (0.538): its hot code is dynamic dispatch (`Environment.getattr`
-   at 0.444, `LoopContext.__next__` at 0.357, `sync_do_join` at 0.205), while cold one-shot
-   helpers specialise to 1.0.
-2. The generic sites are not random. They are attribute lookups and calls whose operand
-   types vary at runtime — exactly the polymorphic cases the specialiser is designed to
-   bail out of.
+| calls during the profiled run | code objects | median coverage | fully specialised |
+| ---: | ---: | ---: | ---: |
+| 1 | 103 | 0.682 | 26 |
+| 2–3 | 36 | 0.750 | 10 |
+| 4–7 | 23 | 0.667 | 3 |
+| 8–15 | 19 | 0.800 | 6 |
+| ≥16 | 72 | 0.809 | 21 |
+
+Spearman correlation between `log2(calls)` and coverage is **0.136** (n=253). A code
+object called exactly once already reaches a median coverage of 0.68, because quickening
+happens inside that call; hot code only rises to 0.81. So the residue is **shape-limited,
+not frequency-limited**: what stays generic is attribute lookup and call dispatch whose
+operand types vary at runtime, exactly the polymorphic cases the specialiser is designed to
+bail out of. That also explains why Jinja2's call-weighted score (0.411) is *lower* than its
+unique score (0.538): its hottest functions (`Environment.getattr` 0.444,
+`LoopContext.__next__` 0.357, `sync_do_join` 0.205) are dynamic dispatch.
 
 `census` is exact about bytecode state, but it does not weight by instructions executed
 inside a code object; the call-weighted column is a documented proxy, not an execution
@@ -133,6 +143,7 @@ The additional sweeps:
 ```bash
 PYTHONPATH=. python3 experiments/sweep.py        # results/transient_sweep.json
 PYTHONPATH=. python3 experiments/first_calls.py  # results/first_calls.json
+PYTHONPATH=. python3 experiments/frequency.py    # results/frequency.json
 ```
 
 Experiment dependencies (Jinja2, markdown-it-py, Click) are optional; the tool and its
@@ -154,9 +165,10 @@ tests do not import them.
 
 ## 本轮创新
 
-B 档：首次直接读取 CPython 3.12 的真实特化状态，在三个真实库负载上给出**调用频次门控**
-的覆盖率（Jinja2 call-weighted 0.411 vs unique 0.538），并**反证**了「fresh code object 对照
-能量出特化收益」这一常见做法——收益在第一次调用内部就完成，可测到的是恒定的 ~70 ns 入口
+B 档：首次直接读取 CPython 3.12 的真实特化状态，在三个真实库负载上给出「**首调用即完成、
+形状受限而非频次受限**」的覆盖率（253 个 code object：单次调用中位 0.682，≥16 次 0.809，
+Spearman 0.136；Jinja2 call-weighted 0.411 vs unique 0.538），并**反证**了「fresh code object
+对照能量出特化收益」这一常见做法——收益在第一次调用内部就完成，可测到的是恒定的 ~70 ns 入口
 瞬态（1.23x→1.01x 随核长大而衰减），不是稳态乘数。与台账里的 speedgap（合成 vs 真实）
 和 benchreconcile（声明三方对账）不同：那两条比的是外部声明与负载，本条直接测量解释器
 自适应字节码状态。

@@ -1,0 +1,68 @@
+{
+  "buckets": [
+    {
+      "calls_hi": 1,
+      "calls_lo": 1,
+      "code_objects": 103,
+      "fully_specialised": 26,
+      "mean_coverage": 0.6772185332051254,
+      "median_coverage": 0.6818181818181818,
+      "zero_specialised": 2
+    },
+    {
+      "calls_hi": 3,
+      "calls_lo": 2,
+      "code_objects": 36,
+      "fully_specialised": 10,
+      "mean_coverage": 0.7043529043304629,
+      "median_coverage": 0.75,
+      "zero_specialised": 0
+    },
+    {
+      "calls_hi": 7,
+      "calls_lo": 4,
+      "code_objects": 23,
+      "fully_specialised": 3,
+      "mean_coverage": 0.6295740872906734,
+      "median_coverage": 0.6666666666666666,
+      "zero_specialised": 0
+    },
+    {
+      "calls_hi": 15,
+      "calls_lo": 8,
+      "code_objects": 19,
+      "fully_specialised": 6,
+      "mean_coverage": 0.6813928761297182,
+      "median_coverage": 0.8,
+      "zero_specialised": 1
+    },
+    {
+      "calls_hi": null,
+      "calls_lo": 16,
+      "code_objects": 72,
+      "fully_specialised": 21,
+      "mean_coverage": 0.6911443672481009,
+      "median_coverage": 0.8094758064516129,
+      "zero_specialised": 2
+    }
+  ],
+  "code_objects_with_adaptive_slots": 253,
+  "spearman_log2calls_coverage": 0.13578045827275542,
+  "totals_by_workload": {
+    "click_invoke": {
+      "call_weighted": 0.536278,
+      "code_objects": 140,
+      "unique": 0.515337
+    },
+    "jinja2_render": {
+      "call_weighted": 0.411069,
+      "code_objects": 27,
+      "unique": 0.537549
+    },
+    "markdown_parse": {
+      "call_weighted": 0.677943,
+      "code_objects": 93,
+      "unique": 0.570251
+    }
+  }
+}

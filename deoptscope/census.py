@@ -272,6 +272,7 @@ def summarise(
             else None
         ),
         "hot_functions": hot[:15],
+        "code_objects_detail": hot,
         "generic_sites": generic_sites,
     }
 
